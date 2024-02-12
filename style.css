@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    font-family: 'Inter';
+}
+#sessao-01{
+    background-color:#303030;
+    padding: 25px;
+    height: 475px;
+    width: auto;
+    
+}
+#titulo-sessao-01 {
+    color:white; 
+    text-align:justify;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+    margin: 170px 0 0 90px;
+}
+#texto-sessao-01 {
+    color: white;
+    text-align:justify;
+    margin: 10px 0 0 90px;
+    font-size: 28px;
+
+}
+#sessao-02 {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 50px 150px 50px 150px;
+}
+#titulo-sessao-02 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+#texto-sessao-02 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+#sessao-03 {
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px 30px 80px;
+}
+
+#titulo-sessao-03 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+#texto-sessao-03 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+#img-sessao-03{
+    width: 420px;
+}
+
+#sessao-04 {
+    background-color: #303030;
+    padding: 50px 250px 50px 250px;
+    text-align: center;
+}
+#titulo-sessao-04{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color:white ;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding:  0 0 0 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+}
+button{
+    background: #C07212;
+    height: 74px;
+    width: 286px;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    margin: 0 0 50px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+}
+button:hover{
+    background-color: #ce9c40 ;
+    color: white;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    box-shadow: 0 15px 20px 0 #afafaf56;
+}
